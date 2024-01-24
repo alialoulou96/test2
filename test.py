@@ -61,7 +61,7 @@ def url(id,url_df):
 
 
 df = pd.read_csv("https://github.com/alialoulou96/test2/blob/master/id_information_mmsr.tsv", delimiter='\t')
-st.markdown(df.columns)
+st.markdown(df.columns.values)
 # df_artist = df['artist'].values.tolist()
 # df_song = df['song'].values.tolist()
 
