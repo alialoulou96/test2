@@ -62,7 +62,7 @@ def url(id,url_df):
 # query_url, retrieved_url = id_and_url_or_genre(query_id=query_id,retrieved_ids=retrieved_ids,df=url_df,func=url)
 ##################################################################################################
 
-df = pd.read_csv("https://media.githubusercontent.com/media/ayadiali/test/main/id_information_mmsr.tsv", delimiter='\t')
+df = pd.read_csv("https://github.com/alialoulou96/test2/blob/master/id_information_mmsr.tsv", delimiter='\t')
 df_artist = df['artist'].values.tolist()
 df_song = df['song'].values.tolist()
 
@@ -97,16 +97,16 @@ if selected_func:
     
     
 # text data
-df_bert = pd.read_csv("https://media.githubusercontent.com/media/ayadiali/test/main/id_lyrics_bert_mmsr.tsv", delimiter='\t')
+df_bert = pd.read_csv("https://github.com/alialoulou96/test2/blob/master/id_lyrics_bert_mmsr.tsv", delimiter='\t')
 # audio_data
 # df_ivec1024 = pd.read_csv("https://media.githubusercontent.com/media/ayadiali/test/main/id_ivec1024_mmsr.tsv", delimiter='\t')
 # df_ivec256 = pd.read_csv("https://media.githubusercontent.com/media/ayadiali/test/main/id_ivec256_mmsr.tsv", delimiter='\t')
-df_musicnn = pd.read_csv("https://media.githubusercontent.com/media/ayadiali/test/main/id_musicnn_mmsr.tsv", delimiter='\t')
+df_musicnn = pd.read_csv("https://github.com/alialoulou96/test2/blob/master/id_musicnn_mmsr.tsv", delimiter='\t')
 
 # url info
-url_df = pd.read_csv("https://media.githubusercontent.com/media/ayadiali/test/main/id_url_mmsr.tsv", delimiter='\t')
+url_df = pd.read_csv("https://github.com/alialoulou96/test2/blob/master/id_url_mmsr.tsv", delimiter='\t')
 # genres
-genre =  pd.read_csv("https://media.githubusercontent.com/media/ayadiali/test/main/id_genres_mmsr.tsv", delimiter='\t')
+genre =  pd.read_csv("https://github.com/alialoulou96/test2/blob/master/id_genres_mmsr.tsv", delimiter='\t')
 
 
 ### Data preparation
