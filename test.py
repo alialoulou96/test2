@@ -60,7 +60,7 @@ def url(id,url_df):
 #####################################################################################################################################################################################
 
 
-df = pd.read_csv("https://raw.githubusercontent.com/alialoulou96/test2/master/id_information_mmsr.tsv", sep='\t')
+df = pd.read_csv("https://media.githubusercontent.com/media/alialoulou96/test2/master/id_information_mmsr.tsv", sep='\t')
 st.markdown(df)
 st.write(df)
 
