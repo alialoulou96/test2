@@ -57,3 +57,17 @@ def id_and_url_or_genre(query_id,retrieved_ids,df,func):
 
 def url(id,url_df):
   return url_df[url_df['id']==id].values[0]
+#####################################################################################################################################################################################
+
+
+f = pd.read_csv("https://media.githubusercontent.com/media/ayadiali/test/main/id_information_mmsr.tsv", delimiter='\t')
+df_artist = df['artist'].values.tolist()
+df_song = df['song'].values.tolist()
+
+df['artist_song'] = df['artist'] + ' - ' + df['song']
+df_artist_song = df['artist_song'].values.tolist()
+
+
+# df_artist#.values.tolist()
+
+st.title("Music Retrieval System")
