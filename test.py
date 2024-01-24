@@ -65,13 +65,13 @@ st.markdown(df)
 st.write(df)
 
 st.markdown('hi')
-# df_artist = df['artist'].values.tolist()
-# df_song = df['song'].values.tolist()
+df_artist = df['artist'].values.tolist()
+df_song = df['song'].values.tolist()
 
-# df['artist_song'] = df['artist'] + ' - ' + df['song']
-# df_artist_song = df['artist_song'].values.tolist()
+df['artist_song'] = df['artist'] + ' - ' + df['song']
+df_artist_song = df['artist_song'].values.tolist()
 
 
-# # df_artist#.values.tolist()
+# df_artist#.values.tolist()
 
-# st.title("Music Retrieval System")
+st.title("Music Retrieval System")
